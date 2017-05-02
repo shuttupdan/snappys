@@ -1,1 +1,43 @@
+body{
+  background-color: #42190B;
+}
+
+.row{
+  background-color: #240c00;
+}
+main{
+
+}
+main .row{
+  background-color: #240c00;
+
+}
+.columns{
+}
+.menu-banner{
+  width: 100%;
+}
+#menutxt{
+  color: #A37302;
+  position: absolute;
+  z-index: 10;
+  top: 100px;
+  left: 50%;
+  margin-left: -75px;
+  border: 1px solid blue;
+  font-size: 36px;
+  width: 150px;
+  text-align: center;
+  line-height: 80px;
+}
+h1, h2, h3{
+  font-family: 'Gabriela', serif;
+}
+.navlink{
+  text-align: center;
+  color: #A37302;
+}
+.bannerrow{
+  position: relative;
+}
 
