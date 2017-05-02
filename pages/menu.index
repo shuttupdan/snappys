@@ -1,1 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
+  </head>
+  <body>
+    <div class="show-for-small-only">
+    <div class="row">
+      <div class="small-3 columns">
+        &nbsp;
+      </div>
+      <div class="small-6 medium-6 columns">
+        <img src="images/snappy.png">
+      </div>
+      <div class="small-3 columns">
+        &nbsp;
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-3 columns">
+        <h3 class="navlink">link</h3>
+      </div>
+      <div class="small-3 columns">
+        <h3 class="navlink">link</h3>
+      </div>
+      <div class="small-3 columns">
+        <h3 class="navlink">link</h3>
+      </div>
+      <div class="small-3 columns">
+        <h3 class="navlink">link</h3>
+      </div>
+    </div>
+    </div>
 
+    <div class="show-for-medium">
+    <div class="row">
+      <div class="medium-6 columns">
+        <img src="images/snappy.png">
+      </div>
+      <div class="medium-3 columns">
+        &nbsp;
+      </div>
+      <div class="medium-3 columns">
+        <h3>pretend this is a link</h3>
+      </div>
+    </div>
+    </div>
+
+    <main>
+      <div class="row bannerrow">
+        <img src="" data-interchange="[http://lorempixel.com/output/sports-q-c-500-300-2.jpg, small],
+        [http://lorempixel.com/output/fashion-q-c-800-300-5.jpg, medium],
+        [http://lorempixel.com/output/technics-q-c-1000-300-1.jpg, large]" class="menu-banner">
+        <h1 id="menutxt">Menu</h1>
+      </div>
+      <div class="row">
+        <div class="small-6 columns">
+          <p>Hot Drinks</p>
+        </div>
+        <div class="small-6 columns">
+          <img src="http://lorempixel.com/output/fashion-q-c-500-300-3.jpg">
+        </div>
+      </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
