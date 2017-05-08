@@ -10,6 +10,7 @@ main{
 }
 main .row{
   background-color: #240c00;
+  padding-top: 10px;
 
 }
 .columns{
@@ -24,14 +25,15 @@ main .row{
   top: 100px;
   left: 50%;
   margin-left: -75px;
-  border: 1px solid blue;
+  /**border: 1px solid blue;**/
   font-size: 36px;
   width: 150px;
   text-align: center;
   line-height: 80px;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
   font-family: 'Gabriela', serif;
+  color: #A37302;
 }
 .navlink{
   text-align: center;
@@ -40,4 +42,33 @@ h1, h2, h3{
 .bannerrow{
   position: relative;
 }
-
+ul{
+  list-style-type: none;
+}
+li, p{
+  font-family: verdana, sans-serif;
+  color: #dac3c3;
+}
+ul .navlink {
+  list-style: none;
+}
+ul li .navlink{
+  display: inline;
+}
+#caterbutton{
+  color: #A37302;
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  left: 50%;
+  margin-left: -75px;
+  /**border: 1px solid blue;**/
+  font-size: 36px;
+  width: 150px;
+  text-align: center;
+  line-height: 80px;
+  background-color: #470108;
+}
+footer{
+  padding-top: 100px;
+}
