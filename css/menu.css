@@ -34,6 +34,7 @@ main .row{
 h1, h2, h3, h4{
   font-family: 'Gabriela', serif;
   color: #A37302;
+  text-shadow: 1px 1px #874913;
 }
 .navlink{
   text-align: center;
@@ -68,7 +69,15 @@ ul li .navlink{
   text-align: center;
   line-height: 80px;
   background-color: #470108;
+  border-radius: 10px;
 }
 footer{
   padding-top: 100px;
 }
+li a{
+  text-decoration: none;
+  color: inherit;
+}
+.navlink a{
+  text-align: center;
+  color: #A37302;
